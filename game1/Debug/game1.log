@@ -1,2 +1,3 @@
-﻿  game1.cpp
+﻿  Functiongraphics.cpp
+D:\project\c++\a visual\game1\game1\Functiongraphics.cpp(232,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   game1.vcxproj -> D:\project\c++\a visual\game1\Debug\game1.exe

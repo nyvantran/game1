@@ -21,6 +21,9 @@ Snake::Snake()
 Snake::~Snake()
 {
 	free(this->anh);
+	while (this->xy != NULL) {
+		deleteFistToaDo(this->xy);
+	}
 }
 
 int Snake::Diem() const
@@ -145,6 +148,18 @@ void InsertFistToaDo(PTRToaDo& fist, ToaDo x)
 	p->inf = x;
 	p->next = fist;
 	fist = p;
+}
+
+void deleteFistToaDo(PTRToaDo& fist)
+{
+	PTRToaDo p;
+	if (fist == NULL) {
+		return;
+	}
+	p = fist;
+	fist = fist->next;
+	delete p;
+	return;
 }
 
 void chayRan(Snake& n, int& x, bool& m, bool& chay)

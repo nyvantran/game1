@@ -19,6 +19,7 @@ struct NodeToaDo
 };
 typedef NodeToaDo* PTRToaDo;
 void InsertFistToaDo(PTRToaDo& fist, ToaDo x);
+void deleteFistToaDo(PTRToaDo& fist);
 /////////////////////////////////
 class Snake
 {
