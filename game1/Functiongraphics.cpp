@@ -170,7 +170,7 @@ void chayRan(Snake& n, int& x, bool& m, bool& chay)
 		Sleep(150 - dem);
 		n.CapNhapHinhAnh();
 		if (m == 1) {
-			if (dem < 130)dem += 5;
+			if (dem < 140)dem += 5;
 			n.CapnhapToaDo(x, m);
 		}
 		else {
