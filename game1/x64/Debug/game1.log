@@ -1,0 +1,5 @@
+﻿  game1.cpp
+game1.obj : error LNK2019: unresolved external symbol closegraph referenced in function main
+game1.obj : error LNK2019: unresolved external symbol initwindow referenced in function main
+graphics.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\project\c++\a visual\game1\x64\Debug\game1.exe : fatal error LNK1120: 2 unresolved externals
